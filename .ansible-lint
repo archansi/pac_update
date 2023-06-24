@@ -1,0 +1,14 @@
+---
+# min, basic, moderate, safety, shared, production
+profile: basic
+
+offline: true
+
+exclude_paths:
+  - .git
+
+skip_list:
+  - name[casing]
+  - name[missing]
+
+# vi: ft=yaml
