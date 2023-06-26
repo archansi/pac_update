@@ -1,0 +1,6 @@
+---
+# https://docs.ansible.com/ansible/latest/collections/community/general/pacman_module.html
+
+- name: "pacman -Su"
+  community.general.pacman:
+    upgrade: true
