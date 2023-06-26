@@ -1,6 +1,7 @@
 ---
-# min, basic, moderate, safety, shared, production
-profile: basic
+# .ansible-lint
+
+profile: basic # min, basic, moderate, safety, shared, production
 
 offline: true
 
@@ -10,5 +11,6 @@ exclude_paths:
 skip_list:
   - name[casing]
   - name[missing]
+  - yaml[comments]
 
 # vi: ft=yaml
