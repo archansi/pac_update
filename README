@@ -1,1 +1,1 @@
-Ansible role to update the archlinux package database
+Upgrades all packages that are out-of-date (pacman -Su)
